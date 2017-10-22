@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+  <title>CSS选择器</title>
+  <meta charset="utf-8" >
+  <style>
+      .p1{
+          color:orange;
+          font-size:30px;
+      }
+      #p2{
+          color:yellowgreen;
+          font-size:30px;
+      }
+      p{
+          color:black;
+
+      }
+      a{
+          color:black;
+          text-decoration:none;
+      }
+      a:hover{
+          color:red;
+      }
+      div p{
+          color:blue;
+          font-size:40px;
+      }
+      div>span{
+          color:pink;
+          font-size:30px;
+      }
+  </style>
+</head>
+<body>
+    <a href="http:www.baidu.com">百度</a>
+    <div>
+       <span>我是div中的Span元素1</span><br>
+        <span>
+            我是div中span元素2
+            <p>我是span中的P元素</p>
+            </span>
+    </div>
+    <p class="p1">白日依山尽</p>
+    <p class="p1">黄河如海流</pclass>
+    <p id="p2">欲穷千里目</p>
+    <p>更上一层楼</p>
+
+</body>
+</html>
