@@ -1,0 +1,79 @@
+ul,p{
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+#nav div{  width:210px;
+          line-height:40px;
+		  background-color:#cd2a2c;
+		  float:left;
+		  }
+#nav div a{
+       text-decoration:none;
+	    color:#F0FEFF;
+	    padding-left:15px;
+		font-weight:bold;
+	  
+}
+#nav i{width:20px;
+       height:30px;
+	   float:right;
+	   background:url("imge/iconlist_2.png") no-repeat -65px 5px ;
+	   margin:10px 10px 0px 0px;
+}
+#nav ul { float:left;
+}
+#nav li { float:left;		 
+}
+#nav li a{ display:inline-block;
+           width:100px;
+		   line-height:40px;
+		   font-size:15px;
+		   font-family:"微软雅黑";
+		   font-weight:bold;
+		   text-decoration:none;
+		   color:#F0FEFF;
+		   text-align:center;
+}
+#nav li a:hover{
+background-color:#bd2a2c;
+}
+#nav{
+    width:990px;
+    height:40px;
+    margin:0 auto;
+    background-color:#E64346;
+}
+#content{width:990px;
+         height:400px;
+         margin:0 auto;
+	     background-color:#FFFFFF;
+		 clear:left;
+
+}
+#catebox{    width:210px;
+             height:400px;
+			 background-color:#fafafa;
+			 border-top:none;
+			 border:2px solid #cd2a2c;
+			 box-sizing:border-box;
+			 padding-top:5px;
+			
+}
+#catebox>li a{font-size:14px;
+			  color:#333;
+			   text-decoration:none;
+			
+}
+
+#catebox>li{ width:186;
+              padding:5px 0px 5px 10px;
+              border-bottom: 2px solid #fff;
+			  border-top:2px solid transparent;
+}
+
+#catebox>li:hover{border-bottom:1px solid #DCDCDC;
+                  border-top:1px solid #DCDCDC;
+				  background-color:#fff;
+}
