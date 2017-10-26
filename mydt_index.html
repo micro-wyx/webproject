@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>我的淘宝下拉列表</title>
+    <style>
+        #container{
+            position:relative;
+            width:120px;
+        }
+        #mytd{
+            width:100px;
+            height:30px;
+            line-height:10px;
+            padding:10px;
+            border:1px solid #666;
+            background-color:orange;
+            position:relative;
+
+
+        }
+        #menu{
+            width:300px;
+            height:200px;
+            border:1px solid #666;
+            background-color:orange;
+            position:absolute;
+            top:50px;
+            left:2px;
+            display:none;
+
+        }
+        #container:hover #menu{
+            display:block;
+            cursor:pointer;
+
+        }
+        #container:hover #mytd{
+            border-bottom:none;
+            z-index:100;
+
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="mytd">
+        我的淘宝
+    </div>
+   <div id="menu">
+        我的淘宝下拉列表
+    </div>
+</div>
+</body>
+</html>
